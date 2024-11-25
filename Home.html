@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Projects</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        header{
+            background-color:black;
+            color:#fff;
+            text-align: center;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            min-height: 12vh;
+            align-items: center;
+            font-family: var(--family);
+        }
+        main{
+            min-height: calc(100vh - 12vh);
+            background-color:darkgray;
+        }
+        main ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #first{
+            margin-top: 2rem;
+        }
+        main ul li{
+            width:50vw;
+            list-style-type: none;
+            border: 1px solid grey ;
+            border-radius: 5px;
+            background-color:darkgoldenrod;
+            margin-top:1.3rem;
+        }
+        main ul li  a{
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.3em;
+            display: block;
+            font-family: var(--family);
+        }
+        main ul li a:hover{
+            background-color: rgb(126, 103, 45);
+            font-weight: bold;
+        }
+        @media screen and (max-width:500px) {
+            main ul li{
+                width: 70vw;
+            }
+            main ul li a{
+                font-size: 1.2rem;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1 id="heading">Six JavaScript Projects - By Raj Prajapati</h1>
+        </div>
+    </header>
+    <main>
+        <ul>
+            <li id="first"><a href="./First/First_pro.html">Project 1:Color Picker 🖼️</a></li>
+            <li><a href="./Second/Second_pro.html">Project 2:BMI Generator 🏋️‍♂️</a></li>
+            <li><a href="./Third/Third_pro.html">Project 3:Digital Clock 🕰️</a></li>
+            <li><a href="./Four/Fourth_pro.html">Project 4:Guess a Number 🔢</a></li>
+            <li><a href="./Five/Five_html.html">Project 5:Change Color 😎</a></li>
+            <li><a href="./Six/six.html">Project 6:Keyboard Check ⌨️</a></li>
+        </ul>
+    </main>
+</body>
+</html>

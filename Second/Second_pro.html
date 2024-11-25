@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../Home.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#">
+            <div class="container">
+                <p class="input">
+                <label for="height">Height in Cm:</label>
+                <input type="text" name="height" id="height" class="values">
+                </p>
+                <p class="input">
+                <label for="weight">Weight in Kg:</label>
+                <input type="text" name="weight" id="weight" class="values" >
+                </p>
+                <p class="button">                
+                    <input type="submit" value="submit" class="btn">
+                </p>
+
+                <h3 class="results"></h3>
+                <div class="weight-guide">
+                    <h3>BMI Weight Guide</h3>
+                    <p>Under Weight = less than 18.6</p>
+                    <p>Normal Range = 18.6 and 27.9</p>
+                    <p>OverWeight = Greater than 24.9</p>
+                </div>
+            </div>
+        </form>
+
+        </div>
+    </main>
+</body>
+<script src="Script.js"></script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../Home.html">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="title">Number Guessing Game</h1>
+        <form>
+            <div class="flex-container">
+                <p class="h2">Try and guess a random number between 1 to 100 
+                    <span style="display: block;text-align: center;margin-bottom: 10px;"> 
+                        You have 10 attempts to get the right number
+                    </span>
+                </p>
+
+                <p class="saying">Guess a Number</p>
+
+                <p class="input">
+                    <label for="number"> Number :
+                    </label>
+                <input type="text" name="number" id="number">
+                </p>
+                <p>
+                    <input type="submit" value="Submit Guess">
+                </p>
+
+                <div class="results" id="results"></div>
+                <button class="btn" hidden id="btn">Restart Game</button>
+
+                <div class="guess" id="guess">
+                    <p class="guesses">Previous Guesses :
+                        <span style="color: black;font-weight: bold;" id="prev"> </span>
+                    </p>
+                    <p class="guesses" >Remaining Guesses :
+                        <span style="color: black;font-weight: bold;" id="remaining"> 10</span>   
+                    </p>
+                </div>
+            </div>
+            </form>
+    </main>
+</body>
+<script src="Script.js"></script>
+</html>
